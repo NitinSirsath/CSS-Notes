@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            text-transform: capitalize;
+            display: inline;
+            padding: 0 30px;
+        }
+
+        ul {
+            padding: 15px;
+        }
+
+
+        div {
+            height: 20vh;
+            width: 30vw;
+        }
+
+        header {
+            background-color: rgb(26, 24, 24);
+            color: whitesmoke;
+            height: 10vh;
+            padding: 10px;
+        }
+
+        .red {
+            background-color: red;
+            float: left;
+
+        }
+
+        .blue {
+            background-color: blue;
+            float: right;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content:space-between;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+    <div class="red">box1</div>
+    <div class="blue">box2</div>
+    </div>
+
+</body>
+
+</html>

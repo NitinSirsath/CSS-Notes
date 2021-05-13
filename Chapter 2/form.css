@@ -1,0 +1,134 @@
+*{
+    font-family: font-family: 'Tajawal', sans-serif;;
+    padding: 0;
+    margin: 0;
+    /* color: whitesmoke; */
+}
+#fname, #sname, #number, #email{
+    background: rgb(66, 70, 67);
+}
+.h2
+{
+    margin: 10px;
+    padding: 15px;
+}
+.body{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url(image.jpg);
+    background-image: 
+    background-repeat: no-repeat;
+    background-position : center;
+    background-size: cover;
+            
+    background-color: whitesmoke;
+    border: 3px solid black;
+    margin: 30px;
+    padding: 40px;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(100, 148, 237, 0.76);
+
+}
+.p1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+
+}
+.lname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.p2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(117, 200, 238, 0.87);
+}
+.playtype{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(78, 168, 117, 0.678);
+    padding: 12px;
+    border: 1px solid black;
+    gap: 5px;
+}
+.h4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(3, 101, 167, 0.76);
+    color: whitesmoke;
+}
+.gametype{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 49, 49);
+    color: rgba(100, 148, 237, 0.76);
+    padding: 10px;
+    margin: 10px;
+    gap: 5px;
+}
+
+.comm{  
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.h44
+{
+    background: rgba(162, 62, 243, 0.904);
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sel{
+    border: 5px black;
+}
+
+.textarea{
+    /* background: rgb(8, 42, 105); */
+    color: rgb(17, 14, 14);
+}
+#text{
+    background: red;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    color: black;
+}
+#click{
+    /* background-color: yellow; */
+    color: black;
+}
+.first{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+}
+.contact{
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+}

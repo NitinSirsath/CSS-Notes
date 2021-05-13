@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap" rel="stylesheet">
+    <title>FormCSS</title>
+</head>
+
+<body>
+    <div class="body">
+        <div class="heading">
+            <hr>
+            <h1>Welcome to TSM</h1>
+            <hr>
+        </div>
+        <div>
+            <div class="h2">
+                <hr>
+                <h2>Regestration for arena</h2>
+                <hr>
+            </div>
+            <div class="p1">
+                <p>Please fill the form correctly</p>
+            </div>
+            <form action="php.php">
+            <div class="first">
+                <div>
+                    <label for="fname">FirstName:</label>
+                    <input required type="text" id="fname" placeholder="John">
+                </div>
+
+
+                <div>
+                    <label for="sname">Lastname:</label>
+                    <input required type="text" id="sname" placeholder="last name"><br>
+                </div>
+            </div>
+            <div class="contact">
+                <div>
+                <label  for="email">Email:</label>
+                <input required type="email" placeholder="john***@gmail.com" id="email">
+            </div>
+            <div>
+                <label for="number">PhoneNO.</label>
+                <input required type="number" value="number" id="number" placeholder="9876543210">
+            </div>
+            </div>
+            <div class="add">
+                <label for="address">Address:</label>
+                <input required type="text" placeholder="n3,cidco" name="address" id="adress">
+            </div>
+            <br>
+            <div class="p2">
+                <p>Please mention your intrest &#8592;</p>
+            </div>
+        </div>
+
+        <br>
+        <div class="playtype">
+            <input type="checkbox" value="playtype" id="playtype1">FPS
+            <input type="checkbox" value="playtype" id="playtype2">3D
+            <input type="checkbox" value="playtype" id="playtype3">2D
+            <input type="checkbox" value="playtype" id="playtype4">Stone war
+            <input type="checkbox" value="playtype" id="playtype5">racing
+        </div>
+
+        <div class="h4">
+            <h4> If you want play as career, which type would you choose:</h4>
+        </div>
+        <div class="gametype">
+            <input type="radio" name="gametype" id="game1">FPS
+            <input type="radio" name="gametype" id="game2">3D
+            <input type="radio" name="gametype" id="game3">Mindgame
+            <input type="radio" name="gametype" id="game4">2D
+        </div>
+
+        <div class="sel">
+            <div class="h44">
+                <h4>Which community do you prefer</h4>
+            </div>
+            <div class="comm">
+                <select name="game" id="community">
+                    <option value="game">select your community</option>
+                    <option value="console">console</option>
+                    <option value="platstation">Playstation</option>
+                    <option value="desktop">Desktop gaming</option>
+                    <option value="xbox">Xbox</option>
+                </select>
+
+            </div>
+        </div>
+
+        <div class=" textarea">
+            <label for="text"> Fill this:</label>
+            <br>
+            <textarea name="your" id="text" placeholder="Please mention your..." cols="135" rows="5"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit" value="submit" id="click">submit</button>
+        </div>
+
+    </div>
+
+</form>
+</body>
+
+</html>

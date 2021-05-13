@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        header {
+            background-color: black;
+            color: white;
+        }
+
+        ul li {
+            text-transform: capitalize;
+            display: inline;
+            padding: 0 30px;
+
+
+        }
+
+        ul {
+            padding: 10px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+        }
+
+        .img {
+            height: 45vh;
+            border: 2px solid rgb(230, 5, 5);
+            background-image: url(image.jpg);
+            background-position: 42% 20%;
+
+        }
+        .red{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <h1>&copy;</h2>
+
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>Contact</li>
+                </ul>
+        </nav>
+    </header>
+    <div class="img">
+
+    </div>
+    
+    <div class="one red"></div>
+    <div class="two red"></div>
+    <div class="three red"></div>
+
+</body>
+
+</html>
